@@ -1,0 +1,26 @@
+body {
+    padding: 10px;
+    text-align: center;
+}
+.name {
+    font-weight: bold;
+}
+.btn {
+    margin: 3px;
+}
+h2 {
+    text-align: center;
+    margin: 0px;
+}
+#start-draw {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#tickets {
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+<html content="text/html;charset=ISO-8859-1">
+<head>
+	<script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+	<script src="lib/bootstrap.js" type="text/javascript"></script>
+	<script src="lib/handlebars-v4.0.5.js" type="text/javascript"></script>
+	<script src="dataloader.js" type="text/javascript"></script>
+	<script src="trekker.js" type="text/javascript"></script>
+	<script id="lodd-template" type="text/x-handlebars-template">
+		<button type="button" class="in btn btn-primary btn-xs active">
+			<span class="name">{{name}}</span>
+			<span class="for">{{activity}}</span>
+		</button>
+	</script>
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="trekker.css" />
+</head>
+<body>
+	<h2>Gjenværende lodd: <span id="nrOf"></span></h2>
+	<div id="tickets"></div>
+	<button id="start-draw" class="btn btn-success btn-lg">Kjør trekning!</button>
+</body>
+</html>
